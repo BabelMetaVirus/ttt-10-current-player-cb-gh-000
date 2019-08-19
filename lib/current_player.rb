@@ -10,7 +10,7 @@ def turn_count(board)
   end
   return turn
 end
-  
+
 # current_player: takes a bvoard and returns the symbol of the current player.
 # => board - current board state
 # <= token - token value of the turn player
