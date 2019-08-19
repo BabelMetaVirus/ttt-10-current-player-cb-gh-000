@@ -2,7 +2,7 @@
 # => board - current board state
 # <= turn - the current turn
 def turn_count(board)
-  turn = 0
+  turn = 1
   board.each do |entry|
     if entry == "X" || entry == "O"
       turn += 1
@@ -19,5 +19,3 @@ def current_player(board)
   token = (turn_number % 2 == 1) ? "X" : "O"
   return token
 end
-
-  
